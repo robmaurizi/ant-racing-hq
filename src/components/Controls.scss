@@ -1,0 +1,27 @@
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 960px;
+
+    margin: 0 auto 1em;
+}
+
+.controls-status {
+    text-align: right;
+}
+
+.control-panel {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logout-button {
+    margin-left: 2em;
+}
+
+.recalculate-button {
+    margin-left: 1em;
+}

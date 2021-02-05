@@ -1,0 +1,43 @@
+.ants-marching {
+
+    justify-self: flex-end;
+    position: relative;
+    width: 120%;
+    transform: translateX(-10%);
+    
+    .marching-ant {
+        max-width: 200px;
+        width: calc(100% / 12);
+        position: absolute;
+        left: 0;
+        transform: rotate(90deg);
+
+        animation: ant-march 9s infinite;
+        animation-timing-function: linear;
+    }
+
+    .ant-1 {
+        animation-delay: 0;
+    }
+
+    .ant-2 {
+        animation-delay: 3s;
+    }
+
+    .ant-3 {
+        animation-delay: 6s;
+    }
+
+}
+
+
+
+@keyframes ant-march {
+    from {
+      left: 0;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  

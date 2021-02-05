@@ -1,0 +1,21 @@
+
+.App {
+  background: #DEDEDE;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  overflow: hidden;
+}
+
+.app-header {
+  max-width: 960px;
+  margin: 0 auto 1em;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+
